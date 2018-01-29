@@ -22,3 +22,4 @@ for x in range(x1,x2 + 1):
     else:
         x=x+1
 print prime
+#better idea, abandon ship
