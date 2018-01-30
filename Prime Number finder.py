@@ -16,16 +16,16 @@ high=x2
 
 #loop statement
 for x1 in range(low,high):
-    if condition:x1%x==0
-        pass
-            if x1=high:
-                pass break
-                else x1=x1+1
-        else if x=int.ma.sqrt(high)+1:
-                pass
-                    if x1=high:
-                        pass x1=primes, break
-                        else x=x+1
+if condition:x1%x==0
+    if x1=high:
+        break
+    else:
+        x1=x1+1
+elif x=int.ma.sqrt(high)+1:
+    if x1=high:
+        x1=primes, break
+    else:
+        x=x+1
 
 
 print primes
