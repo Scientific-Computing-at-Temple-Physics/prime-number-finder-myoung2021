@@ -9,23 +9,33 @@ x2=raw_input('Largest number to check:')
 #defining final print group
 primes=[]
 
-#defining dividend and low/high values
-x=2
+#defining dividend/divisor and low/high values
+divisor=2
+dividend=x1
+
 low=x1
 high=x2
 
 #loop statement
-for x1 in range(low,high):
-if condition:x1%x==0
-    if x1=high:
-        break
-    else:
-        x1=x1+1
-elif x=int.ma.sqrt(high)+1:
-    if x1=high:
-        x1=primes, break
-    else:
-        x=x+1
+for dividend in range(low,high):
+    for divisor in range(2,int(ma.sqrt(max)+1)):
+        if dividend%divisor ==0:
+            dividend=dividend+1
+        elif divisor==int(ma.sqrt(max)+1
+            primes=primes+dividend and dividend=dividend+1
+        else divisor=divisor+1 and dividend=dividend+1
 
+
+"""    if x1%x=0
+        if x1=high:
+            break
+        else:
+            x1=x1+1
+    elif x=int.ma.sqrt(high)+1:
+        if x1=high:
+            primes=primes+x1, break
+        else:
+            x=x+1
+"""
 
 print primes
